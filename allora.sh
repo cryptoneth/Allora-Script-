@@ -93,17 +93,8 @@ echo -e "${BOLD}${DARK_YELLOW}Checking go version...${RESET}"
 execute_with_prompt 'go version'
 echo
 
-echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Installing Allorand...${RESET}"
-git clone https://github.com/allora-network/allora-chain.git
-cd allora-chain && make all
-echo
-
 echo -e "${BOLD}${DARK_YELLOW}Checking allorand version...${RESET}"
 allorad version
-echo
-
-echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Paste Your Recovery Phrase...${RESET}"
-allorad keys add testkey --recover
 echo
 
 echo "Get some Faucet : https://faucet.testnet-1.testnet.allora.network/"
