@@ -19,7 +19,7 @@ execute_with_prompt() {
 echo -e "${BOLD}${DARK_YELLOW}Did you follow Crypton ? ${RESET}"
 echo
 
-echo -e "${CYAN}did you? (Y/N):${RESET}"
+echo -e "${CYAN}Do you ? (Y/N):${RESET}"
 read -p "" response
 echo
 
