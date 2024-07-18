@@ -16,12 +16,7 @@ execute_with_prompt() {
     fi
 }
 
-echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Requirement for running allora-worker-node${RESET}"
-echo
-echo -e "${BOLD}${DARK_YELLOW}Operating System : Ubuntu 22.04${RESET}"
-echo -e "${BOLD}${DARK_YELLOW}CPU : Min of 1/2 core.${RESET}"
-echo -e "${BOLD}${DARK_YELLOW}RAM : 2 to 4 GB.${RESET}"
-echo -e "${BOLD}${DARK_YELLOW}Storage : SSD or NVMe with at least 5GB of space.${RESET}"
+echo -e "${BOLD}${DARK_YELLOW}Did you follow Crypton ? ${RESET}"
 echo
 
 echo -e "${CYAN}Do you meet all of these requirements? (Y/N):${RESET}"
@@ -107,11 +102,11 @@ echo -e "${BOLD}${DARK_YELLOW}Checking allorand version...${RESET}"
 allorad version
 echo
 
-echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Importing wallet...${RESET}"
+echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Paste Your Recovery Phrase...${RESET}"
 allorad keys add testkey --recover
 echo
 
-echo "Request faucet to your wallet from this link: https://faucet.testnet-1.testnet.allora.network/"
+echo "Get some Faucet : https://faucet.testnet-1.testnet.allora.network/"
 echo
 
 echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Installing worker node...${RESET}"
@@ -148,10 +143,7 @@ fi
 read -p "Enter HEAD_ID: " HEAD_ID
 echo
 
-read -p "Enter WALLET_SEED_PHRASE: " WALLET_SEED_PHRASE
-echo
-
-read -p "Enter TOPIC_ID: " TOPIC_ID
+read -p "Paste Your Recovery Phrase: " WALLET_SEED_PHRASE
 echo
 
 echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Generating docker-compose.yml file...${RESET}"
@@ -334,5 +326,5 @@ echo
 echo -e "${BOLD}${DARK_YELLOW}Checking running Docker containers...${RESET}"
 docker ps
 echo
-echo "${BOLD}${DARK_YELLOW}Crypton !!${RESET}"
+echo "${BOLD}${DARK_YELLOW}Congrats !!${RESET}"
 echo
