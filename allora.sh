@@ -122,9 +122,7 @@ sudo chmod -R 777 workers/worker-2
 sudo chmod -R 777 head-data
 echo
 
-echo -e "${BOLD}${DARK_YELLOW}Creating Head keys...${RESET}"
-echo
-sudo docker run -it --entrypoint=bash -v ./head-data:/data alloranetwork/allora-inference-base:latest -c "mkdir -p /data/keys && (cd /data/keys && allora-keys)"
+echo -e "${BOLD}${DARK_YELLOW}your Head Keys...${RESET}"
 echo
 sudo docker run -it --entrypoint=bash -v ./workers/worker-1:/data alloranetwork/allora-inference-base:latest -c "mkdir -p /data/keys && (cd /data/keys && allora-keys)"
 sudo docker run -it --entrypoint=bash -v ./workers/worker-2:/data alloranetwork/allora-inference-base:latest -c "mkdir -p /data/keys && (cd /data/keys && allora-keys)"
