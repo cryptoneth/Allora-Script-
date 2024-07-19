@@ -102,9 +102,17 @@ echo -e "${BOLD}${DARK_YELLOW}Checking allorand version...${RESET}"
 allorad version
 echo
 
-echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Paste Your Recovery Phrase...${RESET}"
-allorad keys add testkey --recover
+echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}it's your recovery phrase keep it safe ....${RESET}"
+allorad keys add testkey
 echo
+
+echo -e "${BOLD}${DARK_YELLOW}did you write that ? ? ${RESET}"
+echo
+
+echo -e "${CYAN}Do you ? (Y/N):${RESET}"
+read -p "" response
+echo
+
 
 echo "Get some Faucet : https://faucet.testnet-1.testnet.allora.network/"
 echo
