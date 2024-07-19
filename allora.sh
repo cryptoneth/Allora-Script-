@@ -44,7 +44,7 @@ read -p "" response
 echo
 
 echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Installing worker node...${RESET}"
-cd basic-coin-prediction-node
+cd allora-chain/basic-coin-prediction-node
 docker compose down
 docker container stop worker-basic-eth-pred
 docker container rm worker-basic-eth-pred
