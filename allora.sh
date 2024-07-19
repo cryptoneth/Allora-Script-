@@ -16,7 +16,7 @@ execute_with_prompt() {
     fi
 }
 
-echo -e "${BOLD}${DARK_YELLOW}Did you follow Crypton ? ${RESET}"
+echo -e "${BOLD}${DARK_YELLOW}Did you follow Crypton https://t.me/crypton_calls  https://x.com/Crypton_calls ? ${RESET}"
 echo
 
 echo -e "${CYAN}Do you ? (Y/N):${RESET}"
