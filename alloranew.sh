@@ -102,8 +102,8 @@ echo -e "${BOLD}${DARK_YELLOW}Checking allorand version...${RESET}"
 allorad version
 echo
 
-echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}it's your recovery phrase keep it safe ....${RESET}"
-allorad keys add testkey
+echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Enter a password it's your recovery phrase keep it safe ....${RESET}"
+allorad keys add wallet
 echo
 
 echo -e "${BOLD}${DARK_YELLOW}did you write that ? ? ${RESET}"
