@@ -102,7 +102,7 @@ echo -e "${BOLD}${DARK_YELLOW}Checking allorand version...${RESET}"
 allorad version
 echo
 
-echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Enter a password it's your recovery phrase keep it safe ....${RESET}"
+echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Enter a password then enter y  ****** it's your recovery phrase keep it safe ....${RESET}"
 allorad keys add wallet
 echo
 
