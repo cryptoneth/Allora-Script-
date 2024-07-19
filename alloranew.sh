@@ -117,6 +117,13 @@ echo
 echo "Get some Faucet : https://faucet.testnet-1.testnet.allora.network/"
 echo
 
+echo -e "${BOLD}${DARK_YELLOW}Did you get faucet  ? ${RESET}"
+echo
+
+echo -e "${CYAN}Do you ? (Y/N):${RESET}"
+read -p "" response
+echo
+
 echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Installing worker node...${RESET}"
 git clone https://github.com/allora-network/basic-coin-prediction-node
 cd basic-coin-prediction-node
