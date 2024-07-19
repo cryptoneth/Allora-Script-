@@ -14,7 +14,7 @@ wget https://raw.githubusercontent.com/cryptoneth/Allora-Script-/main/allora.sh 
 
 ```
 cd
-rm -rf allora.sh 
+rm -rf alloranew.sh 
 wget https://raw.githubusercontent.com/cryptoneth/Allora-Script-/main/alloranew.sh && chmod +x alloranew.sh && ./alloranew.sh
 ```
 * جایگذاری های Head ID + Recovery Phrase و ... مشخص هست
