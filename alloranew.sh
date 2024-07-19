@@ -102,11 +102,11 @@ echo -e "${BOLD}${DARK_YELLOW}Checking allorand version...${RESET}"
 allorad version
 echo
 
-echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Enter a password then enter y  ****** it's your recovery phrase keep it safe ....${RESET}"
+echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Importing wallet...${RESET}"
 allorad keys add testkey --recover
 echo
 
-echo "Get some Faucet : https://faucet.testnet-1.testnet.allora.network/"
+echo "Request faucet to your wallet from this link: https://faucet.testnet-1.testnet.allora.network/"
 echo
 
 echo -e "${BOLD}${DARK_YELLOW}Did you get faucet  ? ${RESET}"
