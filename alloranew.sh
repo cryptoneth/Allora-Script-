@@ -106,8 +106,6 @@ echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Enter a password then enter y  ****** 
 allorad keys add testkey --recover
 echo
 
-echo -e "${BOLD}${DARK_YELLOW}did you write that ? ? ${RESET}"
-echo
 
 echo -e "${CYAN}Do you ? (Y/N):${RESET}"
 read -p "" response
