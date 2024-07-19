@@ -103,7 +103,7 @@ allorad version
 echo
 
 echo -e "${BOLD}${UNDERLINE}${DARK_YELLOW}Enter a password then enter y  ****** it's your recovery phrase keep it safe ....${RESET}"
-allorad keys add wallet
+allorad keys add testkey --recover
 echo
 
 echo -e "${BOLD}${DARK_YELLOW}did you write that ? ? ${RESET}"
