@@ -36,6 +36,14 @@ echo
 echo "Get some Faucet : https://faucet.testnet-1.testnet.allora.network/"
 echo
 
+echo "Get your address ** ENTER YOUR WALLET PASSWORD "
+echo
+allorad keys list
+echo
+
+echo "Get some Faucet : https://faucet.testnet-1.testnet.allora.network/"
+echo
+
 echo -e "${BOLD}${DARK_YELLOW}Did you get faucet  ? ${RESET}"
 echo
 
