@@ -81,3 +81,11 @@ curl --location 'http://localhost:6000/api/v1/functions/execute' --header 'Conte
 ```
 
 
+لاگ نود 
+
+# Check worker 1 logs
+docker compose logs -f worker-1
+
+# Check worker 2 logs
+docker compose logs -f worker-2
+
