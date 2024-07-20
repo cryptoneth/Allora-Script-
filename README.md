@@ -28,7 +28,7 @@ curl --location 'http://localhost:6000/api/v1/functions/execute' --header 'Conte
     "function_id": "bafybeigpiwl3o73zvvl6dxdqu7zqcub5mhg65jiky2xqb4rdhfmikswzqm",
     "method": "allora-inference-function.wasm",
     "parameters": null,
-    "topic": "allora-topic-1-worker",
+    "topic": "1",
     "config": {
         "env_vars": [
             {
@@ -58,7 +58,7 @@ curl --location 'http://localhost:6000/api/v1/functions/execute' --header 'Conte
     "function_id": "bafybeigpiwl3o73zvvl6dxdqu7zqcub5mhg65jiky2xqb4rdhfmikswzqm",
     "method": "allora-inference-function.wasm",
     "parameters": null,
-    "topic": "allora-topic-2-worker",
+    "topic": "2",
     "config": {
         "env_vars": [
             {
