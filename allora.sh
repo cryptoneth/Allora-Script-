@@ -191,7 +191,7 @@ services:
           --allora-chain-restore-mnemonic='$WALLET_SEED_PHRASE' \
           --allora-node-rpc-address=https://allora-rpc.testnet-1.testnet.allora.network \
           --allora-chain-key-name=worker-1 \
-          --allora-chain-topic-id=1
+          --topic=allora-topic-1-worker --allora-chain-worker-mode=worker
     volumes:
       - ./workers/worker-1:/data
     working_dir: /data
@@ -231,7 +231,7 @@ services:
           --allora-chain-restore-mnemonic='$WALLET_SEED_PHRASE' \
           --allora-node-rpc-address=https://allora-rpc.testnet-1.testnet.allora.network \
           --allora-chain-key-name=worker-2 \
-          --allora-chain-topic-id=2
+          --topic=allora-topic-2-worker --allora-chain-worker-mode=worker
     volumes:
       - ./workers/worker-2:/data
     working_dir: /data
